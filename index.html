@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW7-JS-DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-1">
+                <div class="shape-box">
+                    <div class="shape">Shape</div>
+                </div>
+            </div>
+            <div class="choice" id="myChoice">Select your shape</div>
+
+            <div class="col-2">
+                <select class="form-select" id="shapeSelect">
+                    <option selected disabled>Select Shape</option>
+                    <option value="square">Square</option>
+                    <option value="circle">Circle</option>
+                    <option value="rectangle">Rectangle</option>
+                </select>
+            </div>
+
+            <div class="col-3">
+                <div class="input-color-choose">
+                    <input type="color" class="form-control form-control-color" id="inputColor" value="#000000"
+                        title="Choose color" aria-describedby="applyColor">
+                    <button class="btn btn-apply" type="button" id="applyColor">Apply</button>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <button class="btn btn-reset" type="button" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
+
+

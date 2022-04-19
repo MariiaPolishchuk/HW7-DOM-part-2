@@ -1,0 +1,87 @@
+.input-color-choose {
+    display: inline-flex;
+    flex-direction: column;
+    width: 108px;
+    gap: 9px;
+}
+
+.form-color-choose, 
+.btn-reset, 
+.btn-apply, 
+.form-control-color {
+    width: 108px;
+}
+
+.col-1, 
+.col-2, 
+.col-3, 
+.col-4 {
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    background-color: #3d91f6;
+}
+.wrapper {
+    padding: 100px 0;
+}
+
+.shape-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-select {
+    width: 108px;
+    border-radius: 10px;
+}
+.shape {
+    width: 183px;
+    height: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #060606;
+    border-radius: 203px;
+    background: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all .5s ease-in;
+}
+
+.choice {
+    color: #060606;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.square {
+    width: 180px;
+    height: 180px;
+    border: 0px solid transparent;
+    transition: all .5s ease-in;
+}
+
+.rectangle {
+    width: 180px;
+    height: 125px;
+    border: 0px solid transparent;
+    transition: all .5s ease-in;
+}
+.circle {
+    width: 180px;
+    height: 180px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    transition: all .5s ease-in;
+}
+
+button {
+    cursor: pointer;
+    width: 108px;
+}
